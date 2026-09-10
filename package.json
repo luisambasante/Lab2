@@ -1,0 +1,14 @@
+{
+  "name": "guia2-graphql-productos",
+  "version": "1.0.0",
+  "description": "API GraphQL para gestión de productos con Node.js, Express y GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.9.0"
+  }
+}
