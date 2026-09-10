@@ -1,21 +1,31 @@
 # API GraphQL para Gestión de Productos
 
-## Descripción
+## 1. Descripción del proyecto
 
-API desarrollada con Node.js, Express y GraphQL para gestionar productos.
-Permite consultar, filtrar, crear, actualizar y eliminar productos mediante
-Queries y Mutations.
+Este proyecto consiste en una API desarrollada con Node.js, Express y GraphQL
+para gestionar productos.
 
-## Requisitos
+La API permite realizar las siguientes operaciones:
+
+- Consultar todos los productos.
+- Consultar un producto por su ID.
+- Filtrar productos por nombre, categoría y precio máximo.
+- Crear nuevos productos.
+- Actualizar productos existentes.
+- Eliminar productos.
+
+Los datos se almacenan temporalmente en un array en memoria.
+
+---
+
+## 2. Requisitos previos
+
+Antes de ejecutar el proyecto es necesario tener instalado:
 
 - Node.js
 - npm
 
-## Instalación
-
-1. Descargar o clonar el proyecto.
-2. Abrir una terminal dentro de la carpeta del proyecto.
-3. Instalar las dependencias con:
+Para comprobar que están instalados, abrir una terminal y ejecutar:
 
 ```bash
-npm install
+node -v
